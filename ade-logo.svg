@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ade-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="-217.01006"
+     inkscape:cy="560.47923"
+     inkscape:window-width="3836"
+     inkscape:window-height="1549"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:#2a2925;stroke-width:1.32292"
+       id="rect60939"
+       width="173.68942"
+       height="173.68942"
+       x="21.560516"
+       y="58.909801"
+       ry="21.992949" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:102.177px;line-height:0.75;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.299347"
+       x="45.69088"
+       y="157.91879"
+       id="text4241"
+       transform="scale(1.1377282,0.87894455)"><tspan
+         sodipodi:role="line"
+         id="tspan4239"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:102.177px;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.299347"
+         x="45.69088"
+         y="162.21022">0A</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:102.177px;font-family:'TerminessTTF Nerd Font Mono';-inkscape-font-specification:'TerminessTTF Nerd Font Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.299347"
+         x="45.69088"
+         y="238.84297"
+         id="tspan4243">DE</tspan></text>
+  </g>
+</svg>

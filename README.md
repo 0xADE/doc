@@ -1,2 +1,3 @@
-# blueprints
- ADE blueprints
+# Documentation
+
+ADE blueprints

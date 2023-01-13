@@ -1,0 +1,27 @@
+GUI communicates with backend: {
+  shape: sequence_diagram
+  gui -> ade-ldm: WMLIST
+
+  Optionally get WM icons and possible additional info: {
+    gui -> ade-ldm: WM DETAILS
+  }
+  gui -> ade-ldm: USERS
+  Optionally get user avatars: {
+    gui -> ade-ldm: USER DETAILS
+  }
+  gui -> ade-ldm: SELECT
+  gui -> ade-ldm: LOGIN user, pass
+  ade-ldm -> ade-ldm: run platform (Wayland, X)
+  ade-ldm -> ade-ldm: run selected WM
+}
+
+TUI communicates with backend: {
+  shape: sequence_diagram
+
+  tui -> ade-ldm: WMLIST
+  tui -> ade-ldm: USERS
+  tui -> ade-ldm: SELECT
+  tui -> ade-ldm: LOGIN user, pass
+  ade-ldm -> ade-ldm: run platform (Wayland, X)
+  ade-ldm -> ade-ldm: run selected WM
+}
