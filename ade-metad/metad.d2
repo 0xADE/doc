@@ -1,0 +1,26 @@
+shape: sequence_diagram
+
+ui; metad; exec-interface; emacs-interface; app-interface;
+
+ui -> metad: LIST EXEC
+ui.note: User typed some keys that used as search FILTER.
+ui -> metad: LIST EXEC BY FILTER
+
+metad -> exec-interface: INIT EXEC INDEXER
+exec-interface.note: Indexers are go plugins that inited on first call.
+metad -> exec-interface: LIST BY FILTER
+ui -> metad: RUN EXEC COMMAND
+metad -> metad: Run application with configured shell.
+
+ui.note: User switched mode to Emacs commands.
+ui -> metad: LIST EMACS
+metad -> emacs-interface: INIT EMACS INDEXER
+ui.note: Initial list of commands returned to UI.
+ui -> ui: Type some keys for refine command selection.
+ui -> metad: LIST EMACS BY FILTER
+metad -> emacs-interface: Update emacs with commands list.
+ui.note: Run command.
+ui -> metad: RUN EMACS COMMAND
+metad -> emacs-interface: RUN EMACS COMMAND
+emacs-interface -> emacs: M-x command
+emacs -> emacs: Display command results.
