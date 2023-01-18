@@ -13,8 +13,11 @@ Based on:
 - sway
 - custom apps
 
-Apps in the first approach made with Go + Fyne. Later it could be
-revised. For convenience short apps could made with C.
+The project is the playground for my ideas about UI and testing
+solutions based on different languages and frameworks. In the first
+approach I try to made apps with Go + Fyne. For convenience short apps
+could made with C/Nim. Maybe later it could be revised. The way is
+misty.
 
 ## Parts of solution
 
